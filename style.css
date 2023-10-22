@@ -198,6 +198,10 @@ span {
     background-color: rgba(195, 195, 195, 0.204);
 }
 
+.proft .smart .item:hover {
+    transform: scale(1.1);
+}
+
 .proft .smart .item:nth-child(2) {
     background-color: #192440;
     color: #ffffff;
