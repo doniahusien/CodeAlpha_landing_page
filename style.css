@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    width: 7vw;
+    height: auto;
+    padding: 15px 0px;
+    border-radius: 15px;
+    font-size: 1vw;
+    background: #00FFAD;
+    color: #192440;
+    cursor: pointer;
+    transition: 10ms;
+}
+
+.black {
+    background-color: #192440;
+    color: aliceblue;
+}
+
+.white {
+    background-color: #ffffff;
+    color: #192440;
+}
+
+.black:hover, .white:hover{
+    background: #00FFAD;
+    color: #192440;
+}
+
+header {
+    transition: 1s;
+    padding: 50px 0px;
+    background: url("./img/banner-bk.jpg");
+}
+
+.container {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 80%;
+}
+
+header .container .nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+header .nav img {
+    width: 8%;
+}
+
+.header {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    gap: 25px;
+    padding-top: 30px;
+}
+
+.header h1 {
+    font-size: 4vw;
+    width: 90%;
+}
+
+.header p {
+    width: 70%;
+    font-size: 1vw;
+}
+
+.header button:hover {
+    color: aliceblue;
+    transition: 50ms;
+}
+
+.smartest {
+    padding: 120px 0px;
+    text-align: center;
+}
+
+.smartest h1 {
+    font-size: 2.5vw;
+}
+
+.smart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 35px 0px;
+}
+
+.smart .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.smart .item img {
+    width: 80%;
+    max-width: 180px;
+}
+
+.smart .item p {
+    width: 80%;
+    color: rgb(81, 79, 79);
+    font-size: 18px;
+
+}
+
+.feature {
+    padding: 50px 0px;
+}
+
+.feature .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    margin: auto;
+    gap: 35px;
+}
+
+.feature .first {
+    padding-bottom: 60px;
+    background: linear-gradient(172deg, #ffffff 55%, #00FFAD 0);
+}
+
+.feature .second {
+    background-color: #00FFAD;
+    flex-direction: row-reverse;
+}
+
+.feature .row div {
+    width: 50%;
+}
+
+.feature .row .image {
+    width: 400px;
+}
+
+.feature .row .image img {
+    width: 100%;
+    max-width: 550px;
+}
+
+.feature .row .content {
+    width: 50%;
+}
+
+.feature .row .content p {
+    font-size: 1.5vw;
+    padding: 15px 0;
+}
+
+
+.proft .smart .item h1,
+span {
+    font-size: 4.5vw;
+}
+
+.proft .smart {
+    gap: 50px;
+    padding-top: 75px;
+}
+
+.proft .smart .item {
+    transition: 1s;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    padding: 40px 30px;
+    background-color: rgba(195, 195, 195, 0.204);
+}
+
+.proft .smart .item:nth-child(2) {
+    background-color: #192440;
+    color: #ffffff;
+}
+
+.proft .smart .item ul li {
+    padding: 10px 0;
+}
+
+.clients {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(202, 202, 202, 0.474);
+    gap: 10px;
+}
+
+.clients .item {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+}
+
+.clients .item img {
+    width: 100%;
+    max-width: 150px;
+    object-fit: cover;
+}
+
+.contact {
+    padding: 120px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    background: url("./img/contact-bk.jpg");
+    gap: 25px;
+}
+
+.contact h1 {
+    font-size: 3vw;
+}
+
+.contact .content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact .form {
+    width: 45%;
+}
+
+.contact .form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.contact .form form div {
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    color: #00FFAD;
+}
+
+.contact input {
+    outline: none;
+    width: 100%;
+    height: 35px;
+    border: #00FFAD 2px solid;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+#message {
+    width: 100%;
+    height: 90px;
+}
+
+.contact .form form button {
+    width: 80%;
+}
+
+.icons,
+footer , .icons span {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #192440;
+}
+
+footer {
+    justify-content: space-evenly;
+    padding: 70px 20px;
+    gap: 80px;
+}
+
+footer .icons {
+    color: #192440;
+    gap: 25px;
+    width: 500px;
+}
+
+footer .icons span {
+    font-size: 26px;
+    background-color: #ffffff;
+    color: #192440;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+footer .icons span:hover{
+    color: #ffffff;
+    background-color: #00FFAD;
+    transition: 8ms;
+}
+
+@media screen and (min-width:760px)and (max-width:960px) {
+    .contact .form {
+        width: 90%;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .header {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .container .nav,
+    .header {
+        width: 90%;
+    }
+
+    .header h1,
+    .header p {
+        font-size: 7vw;
+        width: 100%;
+    }
+
+    .header p {
+        font-size: 4vw;
+    }
+
+    .btn {
+        width: 25vw;
+        border-radius: 15px;
+        font-size: 3vw;
+        padding: 5px 0px;
+    }
+
+    header .nav img {
+        width: 10%;
+    }
+
+    header .nav a {
+        font-size: 4vw;
+    }
+
+    .smartest h1 {
+        font-size: 7vw;
+    }
+
+    .feature .row .content {
+        width: 80%;
+    }
+
+    .feature .row .content p {
+        font-size: 4vw;
+    }
+
+    .feature .row .content h1 {
+        font-size: 6vw;
+    }
+
+    .contact .form {
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .contact .name {
+        flex-direction: column;
+    }
+
+    .contact h1 {
+        font-size: 4vw;
+    }
+}
